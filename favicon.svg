@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+
+  <defs>
+
+    <!-- Chrome metallic gradient -->
+    <linearGradient id="chrome" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fafafa"/>
+      <stop offset="18%" stop-color="#dcdcdc"/>
+      <stop offset="38%" stop-color="#7c7c7c"/>
+      <stop offset="58%" stop-color="#f3f3f3"/>
+      <stop offset="78%" stop-color="#929292"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+
+    <!-- Softer champagne gold -->
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffdf4"/>
+      <stop offset="25%" stop-color="#f7ebc2"/>
+      <stop offset="50%" stop-color="#e8d7a2"/>
+      <stop offset="75%" stop-color="#fdf2cf"/>
+      <stop offset="100%" stop-color="#d9c089"/>
+    </linearGradient>
+
+    <!-- Background -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#101822"/>
+      <stop offset="100%" stop-color="#1f2d40"/>
+    </linearGradient>
+
+  </defs>
+
+  <!-- Background -->
+  <rect width="100" height="100" rx="20" fill="url(#bg)"/>
+
+  <!-- Outer chrome square -->
+  <rect
+    x="10"
+    y="10"
+    width="80"
+    height="80"
+    rx="14"
+    fill="none"
+    stroke="url(#chrome)"
+    stroke-width="4"
+  />
+
+  <!-- Inner soft gold square -->
+  <rect
+    x="18"
+    y="18"
+    width="64"
+    height="64"
+    rx="10"
+    fill="none"
+    stroke="url(#gold)"
+    stroke-width="2"
+    opacity="0.9"
+  />
+
+  <!-- DS lettering -->
+  <text
+    x="50"
+    y="63"
+    font-family="Arial, sans-serif"
+    font-size="40"
+    font-weight="700"
+    text-anchor="middle"
+    fill="url(#chrome)"
+  >
+    DS
+  </text>
+
+</svg>
